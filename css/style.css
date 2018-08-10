@@ -1,0 +1,552 @@
+/* navbar styles */
+
+nav {
+    border: 0 !important;
+    max-height: 80px;
+}
+
+.navbar-default {
+    background-color: transparent !important;
+    border-color: transparent !important;
+}
+
+.navbar-fixed-top.scrolled {
+    background-color: #fff !important;
+    transition: background-color 300ms linear;
+}
+
+.nav-item {
+    border-top: 3px solid transparent;
+    color: #262626;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+    margin: 10px 10px;
+    background-color: transparent;
+}
+
+.navbar-fixed-top .active {
+    background-color: transparent !important;
+    border-top: 3px solid #ff6033;
+}
+
+/* home section styles */
+
+.home {
+    background-image: url("/images/bg1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.home h1 {
+    padding-top: 30%;
+    font-family: Raleway;
+    color: #262626;
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 25px;
+    text-align: left;
+}
+
+.home p {
+    font-family: Raleway;
+    color: #262626;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 27px;
+    text-align: left;
+    padding-top: 20px;
+    padding-right: 65%;
+}
+
+.home button {
+    background-color: #ff6033;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5);
+    border: none;
+    width: 200px;
+    max-width: 100%;
+    height: 55px;
+    font-family: Raleway;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 27px;
+}
+
+.home span {
+    background: url(/images/icon-scroll.png);
+    background-repeat: no-repeat;
+    width: 56px;
+    max-width: 100%;
+    height: 56px;
+    position: absolute;
+    left: 50%;
+    bottom: 10px;
+}
+
+/* about section styles */
+
+.about {
+    background-color: rgb(0, 174, 174);
+    min-height: 700px;
+}
+
+.about img {
+    padding-top: 70px;
+    max-width: 100%;
+    height: auto;
+}
+
+.about h1 {
+    padding-top: 200px;
+    padding-left: 20px;
+    margin-bottom: 50px;
+    font-family: Raleway;
+    color: #ffffff;
+    font-size: 90px;
+    font-weight: 700;
+}
+
+.about p {
+    font-family: Raleway;
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 27px;
+    padding-left: 20px;
+}
+
+/* services section styles */
+
+.services {
+    background: url(/images/img-tomatoes.png);
+    background-repeat: no-repeat;
+    background-position: 75% 50%;
+    background-size: auto 527px;
+    height: 790px;
+
+    background-color: rgb(112, 191, 255);
+}
+
+.serv {
+    display: block;
+    padding-top: 200px;
+}
+
+.services h1 {
+    padding-top: 300px;
+    padding-left: 20px;
+    margin-bottom: 50px;
+    font-family: Raleway;
+    color: #ffffff;
+    font-size: 90px;
+    font-weight: 700;
+}
+
+.service {
+    background-color: #ffffff;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.5);
+    max-width: 400px;
+    width: 90%;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.service p {
+    display: inline-block;
+    font-family: Raleway;
+    color: #262626;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    width: 75%;
+    border-right: 1px solid black;
+    height: 100%;
+    padding-top: 40px;
+}
+
+.service img {
+    margin: 0 auto;
+    width: 20%;
+    height: auto;
+    padding-left: 20px;
+    padding-bottom: 20px
+}
+
+.service img[src="images/icon-planet.png"] {
+    padding-bottom: 40px;
+}
+
+.services a:nth-child(3) p {
+    padding-top: 25px;
+}
+
+/* gallery section styles */
+
+.gallery {
+    background-color: #ffe92f;
+}
+
+.gallery h1 {
+    font-family: Raleway;
+    color: #262626;
+    font-size: 90px;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+
+.gallery p {
+    margin: 0 auto;
+    padding: 20px 0 30px 0;
+    font-family: Raleway;
+    color: #262626;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 27px;
+    text-align: center;
+    max-width: 577px;
+}
+
+.gallery-column-2 {
+    margin-top: 5px;
+}
+
+.gallery-img-1 {
+    max-width: 100%;
+    height: auto;
+}
+
+.gallery-img-2 {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.gallery-img-3 {
+    margin-top: 17px;
+    max-width: 100%;
+    height: auto;
+}
+
+.gallery-img-4 {
+    max-width: 100%;
+    height: auto;
+}
+
+.gallery-img-5 {
+    max-width: 100%;
+    height: auto;
+}
+
+.gallery-row-2 {
+    padding-top: 30px;
+}
+
+.gallery button {
+    display: block;
+    background-color: #5585a2;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5);
+    width: 200px;
+    max-width: 100%;
+    height: 55px;
+    margin: 50px auto 100px;
+    border: none;
+    font-family: Raleway;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 27px;
+}
+
+/* subscribe section styles */
+
+.subscribe {
+    background: url(/images/bg4.png);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-position: 50% 75%;
+    background-size: auto;
+    min-height: 500px;
+}
+
+.subscribe h1 {
+    font-family: Raleway;
+    color: #262626;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.subscribe p {
+    font-family: Raleway;
+    color: #262626;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 27px;
+    text-align: left;
+    max-width: 541px;
+    max-width: 100%;
+}
+
+.subscribe input {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #262626;
+    box-sizing: border-box;
+    background-color: rgba(38, 38, 38, 0);
+    width: 80%;
+    max-width: 90%;
+    height: 55px;
+    padding-left: 10px;
+}
+
+.subscribe button {
+    background-color: #96b92c;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5);
+    width: 170px;
+    max-width: 100%;
+    height: 55px;
+    border: none;
+    font-family: Raleway;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 27px;
+    margin-left: 30px;
+}
+
+/* blog section styles */
+
+.blog {
+    background-color: #b07cf7;
+    min-height: 864px;
+}
+
+.blog h1 {
+    padding-top: 100px;
+    padding-bottom: 60px;
+    font-family: Raleway;
+    color: #ffffff;
+    font-size: 90px;
+    font-weight: 700;
+    line-height: 25px;
+    text-align: center;
+}
+
+.blog p {
+    font-family: Raleway;
+    margin: 0 auto;
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 25px;
+    text-align: center;
+    max-width: 560px;
+    padding-bottom: 50px;
+}
+
+.card-1 {
+    background: url(/images/img-blog1.png);
+}
+
+.card-2 {
+    background: url(/images/img-blog-2.png);
+}
+
+.card-3 {
+    background: url(/images/img-blog-3.png);
+}
+
+.blog-card {
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 370px;
+    max-width: 100%;
+    height: 310px;
+}
+
+.blog .date {
+    border-radius: 5px;
+    background-color: rgba(38, 38, 38, 0.5);
+    width: 60px;
+    height: 60px;
+    font-family: Raleway;
+    color: #ffffff;
+    text-align: center;
+    position: relative;
+    top: 10%;
+    left: 10%;
+}
+
+.date span:nth-of-type(1) {
+    padding-top: 5px;
+    display: block;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 25px;
+}
+
+.date span:nth-of-type(2) {
+    display: block;
+    font-size: 21px;
+    font-weight: 800;
+    line-height: 25px;
+}
+
+.blog h2 {
+    font-family: Raleway;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 25px;
+    text-align: left;
+    padding-top: 120px;
+    padding-left: 20px;
+}
+
+.blog-card p {
+    font-family: Raleway;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 25px;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.blog button {
+    display: block;
+    margin: 50px auto;
+    background-color: #f72b3b;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5);
+    width: 200px;
+    height: 55px;
+    border: none;
+    font-family: Raleway;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 25px;
+}
+
+/* contact section styles */
+
+.contact {
+    background: url(/images/bg5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 866px;
+}
+
+.contact h1 {
+    padding-top: 100px;
+    padding-bottom: 60px;
+    font-family: Raleway;
+    color: #262626;
+    font-size: 90px;
+    font-weight: 700;
+    line-height: 25px;
+    text-align: center;
+}
+
+.contact p {
+    font-family: Raleway;
+    margin: 0 auto;
+    color: #262626;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 25px;
+    text-align: center;
+    max-width: 350px;
+    max-width: 100%;
+    padding-bottom: 50px;
+}
+
+.contact h2 {
+    font-family: Raleway;
+    color: #262626;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 25px;
+    text-align: left;
+    margin: 0;
+    margin-left: 75px;
+}
+
+.contact span {
+    display: block;
+    font-family: Raleway;
+    color: #262626;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 25px;
+    text-align: left;
+    margin-bottom: 20px;
+    margin-left: 75px;
+}
+
+.contact input {
+    opacity: 0.6;
+    background-color: #00c4c4;
+    width: 500px;
+    max-width: 100%;
+    height: 50px;
+    margin-bottom: 15px;
+    margin-left: 0;
+    padding-left: 20px;
+    border: 0;
+    border-left: solid #355b82 5px;
+    font-family: Raleway;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 25px;
+    text-align: left;
+}
+
+.contact input::placeholder {
+    color: #ffffff;
+}
+
+.contact input:focus {
+    opacity: 1;
+}
+
+/* footer styles */
+
+.footer {
+    background-color: #262626;
+    min-height: 90px;
+    font-family: Raleway;
+    color: #b9b9b9;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 25px;
+    text-align: left;
+    padding: 25px 0;
+}
+
+.footer-img {
+    background: url(/images/logo-small.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 64px;
+    max-width: 100%;
+    height: 26px;
+    margin: 0 25%;
+    margin-top: 5px;
+}
+
+.footer span {
+    display: inline-block;
+}
+
+.footer span span {
+    font-weight: 700;
+    color: #ff2b58;
+}

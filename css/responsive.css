@@ -1,0 +1,138 @@
+/* Media queries  for width < 1200px */
+
+@media(max-width:1200px) {
+    .home {
+        background-size: auto;
+        background-position: center;
+        height: 50vh;
+        
+    }
+    .footer span {
+        display: block;
+        margin: 10px auto;
+        text-align: center;
+    }
+    .footer span span {
+        display: inline-block;
+    }
+}
+
+/* Media queries  for width < 991px */
+
+@media(max-width:991px) {
+    .home {
+        background-size: auto;
+
+    }
+    .home h1 {
+        padding-top: 25%;
+    }
+    .home p {
+        padding-right: 50%;
+    }
+    .container {
+        margin: 0;
+    }
+    .about * {
+        text-align: center;
+    }
+    .services h1 {
+        text-align: center;
+        margin: 20px auto;
+        padding: 0;
+    }
+    .services .serv {
+        display: block;
+        padding: 0;
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+    .service {
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    .gallery img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+    }
+    .blog-card {
+        display: block;
+        padding: 0;
+        margin: 0 auto;
+    }
+    .subscribe button {
+        display: block;
+        margin: 0;
+        margin-top: 20px;
+    }
+    .contact input {
+        display: block;
+        margin: 0 auto;
+    }
+    .contact-info h2,
+    .contact-info span {
+        text-align: center;
+        margin: 0 auto;
+    }
+}
+
+/* Media queries  for width < 768px */
+
+@media(max-width:768px) {
+    .navbar-collapse {
+        background-color: white!important;
+    }
+    .home h1 {
+        
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .home p {
+        padding: 0;
+        display: block;
+        margin: 10% auto;
+        text-align: center;
+    }
+    .home button {
+        display: block;
+        margin: 10% auto;
+    }
+    .about h1 {
+        padding: 0;
+        padding-top: 25%;
+    }
+    .service {
+        max-width: 400px;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+}
+
+/* Media queries  for width < 385px */
+
+@media(max-width:385px) {
+    .home {
+        height: 100vh;    
+        background-position: 50% 30%;
+    }
+    .home h1 {
+    }
+    .blog-card {
+        max-width: 90%;
+        padding: 0;
+        margin: 0 auto;
+    }
+    .home h1,
+    .about h1,
+    .services h1,
+    .gallery h1,
+    .blog h1,
+    .contact h1 {
+        font-size: 50px;
+    }
+}
