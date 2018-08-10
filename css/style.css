@@ -33,7 +33,7 @@ nav {
 /* home section styles */
 
 .home {
-    background-image: url("/images/bg1.jpg");
+    background-image: url("../images/bg1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
@@ -75,7 +75,7 @@ nav {
 }
 
 .home span {
-    background: url(/images/icon-scroll.png);
+    background: url(../images/icon-scroll.png);
     background-repeat: no-repeat;
     width: 56px;
     max-width: 100%;
@@ -120,7 +120,7 @@ nav {
 /* services section styles */
 
 .services {
-    background: url(/images/img-tomatoes.png);
+    background: url(../images/img-tomatoes.png);
     background-repeat: no-repeat;
     background-position: 75% 50%;
     background-size: auto 527px;
@@ -174,7 +174,7 @@ nav {
     padding-bottom: 20px
 }
 
-.service img[src="images/icon-planet.png"] {
+.service img[src="../images/icon-planet.png"] {
     padding-bottom: 40px;
 }
 
@@ -265,7 +265,7 @@ nav {
 /* subscribe section styles */
 
 .subscribe {
-    background: url(/images/bg4.png);
+    background: url(../images/bg4.png);
     background-repeat: no-repeat;
     display: flex;
     justify-content: flex-start;
@@ -351,15 +351,15 @@ nav {
 }
 
 .card-1 {
-    background: url(/images/img-blog1.png);
+    background: url(../images/img-blog1.png);
 }
 
 .card-2 {
-    background: url(/images/img-blog-2.png);
+    background: url(../images/img-blog-2.png);
 }
 
 .card-3 {
-    background: url(/images/img-blog-3.png);
+    background: url(../images/img-blog-3.png);
 }
 
 .blog-card {
@@ -437,7 +437,7 @@ nav {
 /* contact section styles */
 
 .contact {
-    background: url(/images/bg5.jpg);
+    background: url(../images/bg5.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 866px;
@@ -532,7 +532,7 @@ nav {
 }
 
 .footer-img {
-    background: url(/images/logo-small.png);
+    background: url(../images/logo-small.png);
     background-repeat: no-repeat;
     background-size: cover;
     width: 64px;

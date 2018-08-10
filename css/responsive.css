@@ -4,7 +4,7 @@
     .home {
         background-size: auto;
         background-position: center;
-        height: 50vh;
+        height: 75vh;
         
     }
     .footer span {
@@ -117,10 +117,8 @@
 
 @media(max-width:385px) {
     .home {
-        height: 100vh;    
         background-position: 50% 30%;
-    }
-    .home h1 {
+           height: 75vh;
     }
     .blog-card {
         max-width: 90%;
